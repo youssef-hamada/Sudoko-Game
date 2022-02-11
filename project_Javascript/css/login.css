@@ -1,0 +1,74 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-image: url("../imgaes/bg.jpg");
+    /* background-size:100%; 
+    background-size: cover;
+    background-position: 100% 100%; */
+    background-image: url("../imgaes/bg.jpg");
+    /* background-color: chartreuse; */
+    background-attachment: fixed;
+    background-position: center;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+  
+}
+.login{
+    background-color: azure;
+    width: 30vw;
+    /* height: 40vh; */
+    margin: 13rem auto;
+    /* padding: 1rem; */
+    text-align: center;
+    border: 3px solid rgb(179, 179, 255);
+    border-radius: 5px ;
+}
+h3{
+    /* margin: 0.4rem; */
+    background-color: cadetblue;
+    padding: 0.4rem;
+}
+.text{
+    margin: 0.8rem;
+    
+}
+input{
+    padding: 0.3rem;
+    border-radius: 3px;
+    
+}
+label{
+    font-weight: bold;
+}
+.pick{
+    margin: 1rem;
+}
+button{
+    padding: 0.4rem;
+    margin: 0.5rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.button a{
+    text-decoration: none;
+    color: black;
+
+}
+table{
+    width: 30vw;
+    /* margin: 1rem auto ; */
+    background-color: rgb(118, 200, 255);
+    /* padding: 1rem; */
+    position: absolute;
+    top: 10%;
+    left: 35%;
+}
+td{
+    padding: 0.4rem;
+}

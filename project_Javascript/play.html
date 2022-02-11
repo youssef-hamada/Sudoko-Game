@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>play Page</title>
+  <link rel="stylesheet" href="css/play.css">
+  <!-- <script src="leavle.js" type="module" defer></script>   -->
+  <script  type="module" src="js/play.js" defer ></script>
+</head>
+<body>
+    <div class="container">
+        <div class="base-timer">
+            <!-- The HTML <svg> element is a container for SVG graphics. -->
+            <!-- SVG has several methods for drawing paths, boxes, circles, text, and graphic images. -->
+            <svg class="base-timer__svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <!-- The <g> SVG element is a container used to group other SVG elements. -->
+                <g class="base-timer__circle">
+                <circle class="base-timer__path-elapsed" cx="40" cy="40" r="25" />
+              </g>
+            </svg>
+            <span id="base-timer-label" class="base-timer__label">
+               
+              <!-- Remaining time label -->
+            </span>
+        </div>
+
+       <!-- image bar  -->
+
+        <div class="free">
+            <div class="card">
+                <img src="imgaes/Group1/1.png" alt="">
+            </div>
+            <div class="card">
+                <img src="imgaes/Group1/2.png" alt="">
+            </div>
+            <div class="card">
+                <img src="imgaes/Group1/3.png" alt="">
+            </div>
+            <div class="card">
+                <img src="imgaes/Group1/4.png" alt="">
+            </div>
+        </div>
+        
+        <!-- capture and submit  -->
+
+        <button id="sub" disabled>Submit</button>
+        <button id="go" disabled>GO</button>
+        <div id="player_name">
+            
+        </div>
+        <!-- board -->
+        <div class="group">
+             
+            <div class="card" id="00">
+                <img src="imgaes/Group1/1.png" alt="" data-id="0">
+            </div>
+            <div class="card" id="01">
+                <img src="imgaes/Group1/1.png" alt="" data-id="0">
+            </div>
+            <div class="card" id="02">
+                <img src="imgaes/Group1/1.png" alt="" data-id="0">
+            </div>
+            <div class="card" id="03">
+                <img src="imgaes/Group1/1.png" alt="" data-id="0">
+            </div>
+            <div class="card" id="10">
+                <img src="imgaes/Group1/1.png" alt="" data-id="0">
+            </div>
+            <div class="card" id="11">
+                <img src="imgaes/Group1/1.png" alt="" data-id="0">
+            </div>
+            <div class="card" id="12">
+                <img src="imgaes/Group1/1.png" alt="" data-id="0">
+            </div>
+            <div class="card" id="13">
+                <img src="imgaes/Group1/1.png" alt="" data-id="0">
+            </div>
+            <div class="card" id="20">
+                <img src="imgaes/Group1/1.png" alt="" data-id="0">
+            </div>
+            <div class="card" id="21">
+                <img src="imgaes/Group1/1.png" alt="" data-id="0">
+            </div>
+            <div class="card" id="22">
+                <img src="imgaes/Group1/1.png" alt="" data-id="0">
+            </div>
+            <div class="card" id="23">
+                <img src="imgaes/Group1/1.png" alt="" data-id="0">
+            </div>
+            <div class="card" id="30">
+                <img src="imgaes/Group1/1.png" alt="" data-id="0">
+            </div>
+            <div class="card" id="31">
+                <img src="imgaes/Group1/1.png" alt="" data-id="0">
+            </div>
+            <div class="card" id="32">
+                <img src="imgaes/Group1/1.png" alt="" data-id="0">
+            </div>
+            <div class="card" id="33">
+                <img src="imgaes/Group1/1.png" alt="" data-id="0">
+            </div>
+    </div>
+    <!-- result  -->
+    <div class="result">
+        <h1>You Lost</h1>
+        <button id="start2">Again !!</button>
+    </div>
+
+    <!-- start playing  -->
+
+    <div id="layer">
+        <div class="layer-content">
+            <button id="start">Start</button>
+        </div>
+    </div>
+
+    
+
+
+</body>
+</html>
